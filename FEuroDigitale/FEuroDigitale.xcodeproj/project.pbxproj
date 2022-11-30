@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A36F5E428B7718F00F533C1 /* FEuroDigitale.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A36F5E328B7718F00F533C1 /* FEuroDigitale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A36F5EE28B772F200F533C1 /* FEuroDigitale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F5ED28B772F200F533C1 /* FEuroDigitale.swift */; };
+		0A36F66828B7876200F533C1 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F66728B7876200F533C1 /* Keychain.swift */; };
+		0A36F66A28B7879600F533C1 /* SecureEnclave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F66928B7879600F533C1 /* SecureEnclave.swift */; };
+		0A36F66D28B787C100F533C1 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F66C28B787C100F533C1 /* Exchange.swift */; };
+		0A36F66F28B787D400F533C1 /* MultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F66E28B787D400F533C1 /* MultipeerSession.swift */; };
+		0A36F67228B787FB00F533C1 /* GenerateTestInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F67128B787FB00F533C1 /* GenerateTestInformation.swift */; };
+		0A36F67428B7880E00F533C1 /* ReadExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F67328B7880E00F533C1 /* ReadExchange.swift */; };
+		0A36F67628B7882100F533C1 /* ReadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F67528B7882100F533C1 /* ReadJson.swift */; };
+		0A36F67828B7882F00F533C1 /* ReadNJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F67728B7882F00F533C1 /* ReadNJson.swift */; };
+		0A36F67A28B7884500F533C1 /* SaveLoadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F67928B7884500F533C1 /* SaveLoadJson.swift */; };
+		0A36F67E28B7888100F533C1 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F67D28B7888100F533C1 /* HomePage.swift */; };
+		0AB3914E28D37B8D003E6F4D /* Valet in Frameworks */ = {isa = PBXBuildFile; productRef = 0AB3914D28D37B8D003E6F4D /* Valet */; };
+		0ADBF38128B7DD500076B459 /* njson1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF36B28B7DD4F0076B459 /* njson1.json */; };
+		0ADBF38228B7DD500076B459 /* data0.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF36C28B7DD4F0076B459 /* data0.json */; };
+		0ADBF38328B7DD500076B459 /* nexchange1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF36D28B7DD4F0076B459 /* nexchange1.json */; };
+		0ADBF38428B7DD500076B459 /* exchange2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF36E28B7DD4F0076B459 /* exchange2.json */; };
+		0ADBF38528B7DD500076B459 /* exchange3.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF36F28B7DD4F0076B459 /* exchange3.json */; };
+		0ADBF38628B7DD500076B459 /* data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37028B7DD4F0076B459 /* data1.json */; };
+		0ADBF38728B7DD500076B459 /* data6.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37128B7DD4F0076B459 /* data6.json */; };
+		0ADBF38828B7DD500076B459 /* exchange4.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37228B7DD4F0076B459 /* exchange4.json */; };
+		0ADBF38928B7DD500076B459 /* nexchange.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37328B7DD4F0076B459 /* nexchange.json */; };
+		0ADBF38A28B7DD500076B459 /* exchange5.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37428B7DD4F0076B459 /* exchange5.json */; };
+		0ADBF38B28B7DD500076B459 /* data7.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37528B7DD4F0076B459 /* data7.json */; };
+		0ADBF38C28B7DD500076B459 /* exchange6.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37628B7DD4F0076B459 /* exchange6.json */; };
+		0ADBF38D28B7DD500076B459 /* data4.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37728B7DD4F0076B459 /* data4.json */; };
+		0ADBF38E28B7DD500076B459 /* data8.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37828B7DD4F0076B459 /* data8.json */; };
+		0ADBF38F28B7DD500076B459 /* data9.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37928B7DD4F0076B459 /* data9.json */; };
+		0ADBF39028B7DD500076B459 /* data5.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37A28B7DD4F0076B459 /* data5.json */; };
+		0ADBF39128B7DD500076B459 /* exchange0.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37B28B7DD4F0076B459 /* exchange0.json */; };
+		0ADBF39228B7DD500076B459 /* data2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37C28B7DD4F0076B459 /* data2.json */; };
+		0ADBF39328B7DD500076B459 /* data3.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37D28B7DD4F0076B459 /* data3.json */; };
+		0ADBF39428B7DD500076B459 /* exchange1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37E28B7DD4F0076B459 /* exchange1.json */; };
+		0ADBF39528B7DD500076B459 /* njson.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF37F28B7DD4F0076B459 /* njson.json */; };
+		0ADBF39628B7DD500076B459 /* data10.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBF38028B7DD4F0076B459 /* data10.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A36F5E028B7718F00F533C1 /* FEuroDigitale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FEuroDigitale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A36F5E328B7718F00F533C1 /* FEuroDigitale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FEuroDigitale.h; sourceTree = "<group>"; };
+		0A36F5EB28B771B400F533C1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		0A36F5ED28B772F200F533C1 /* FEuroDigitale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FEuroDigitale.swift; sourceTree = "<group>"; };
+		0A36F66728B7876200F533C1 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		0A36F66928B7879600F533C1 /* SecureEnclave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclave.swift; sourceTree = "<group>"; };
+		0A36F66C28B787C100F533C1 /* Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
+		0A36F66E28B787D400F533C1 /* MultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerSession.swift; sourceTree = "<group>"; };
+		0A36F67128B787FB00F533C1 /* GenerateTestInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateTestInformation.swift; sourceTree = "<group>"; };
+		0A36F67328B7880E00F533C1 /* ReadExchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadExchange.swift; sourceTree = "<group>"; };
+		0A36F67528B7882100F533C1 /* ReadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJson.swift; sourceTree = "<group>"; };
+		0A36F67728B7882F00F533C1 /* ReadNJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadNJson.swift; sourceTree = "<group>"; };
+		0A36F67928B7884500F533C1 /* SaveLoadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLoadJson.swift; sourceTree = "<group>"; };
+		0A36F67D28B7888100F533C1 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		0ADBF36B28B7DD4F0076B459 /* njson1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = njson1.json; sourceTree = "<group>"; };
+		0ADBF36C28B7DD4F0076B459 /* data0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data0.json; sourceTree = "<group>"; };
+		0ADBF36D28B7DD4F0076B459 /* nexchange1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nexchange1.json; sourceTree = "<group>"; };
+		0ADBF36E28B7DD4F0076B459 /* exchange2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exchange2.json; sourceTree = "<group>"; };
+		0ADBF36F28B7DD4F0076B459 /* exchange3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exchange3.json; sourceTree = "<group>"; };
+		0ADBF37028B7DD4F0076B459 /* data1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data1.json; sourceTree = "<group>"; };
+		0ADBF37128B7DD4F0076B459 /* data6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data6.json; sourceTree = "<group>"; };
+		0ADBF37228B7DD4F0076B459 /* exchange4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exchange4.json; sourceTree = "<group>"; };
+		0ADBF37328B7DD4F0076B459 /* nexchange.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nexchange.json; sourceTree = "<group>"; };
+		0ADBF37428B7DD4F0076B459 /* exchange5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exchange5.json; sourceTree = "<group>"; };
+		0ADBF37528B7DD4F0076B459 /* data7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data7.json; sourceTree = "<group>"; };
+		0ADBF37628B7DD4F0076B459 /* exchange6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exchange6.json; sourceTree = "<group>"; };
+		0ADBF37728B7DD4F0076B459 /* data4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data4.json; sourceTree = "<group>"; };
+		0ADBF37828B7DD4F0076B459 /* data8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data8.json; sourceTree = "<group>"; };
+		0ADBF37928B7DD4F0076B459 /* data9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data9.json; sourceTree = "<group>"; };
+		0ADBF37A28B7DD4F0076B459 /* data5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data5.json; sourceTree = "<group>"; };
+		0ADBF37B28B7DD4F0076B459 /* exchange0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exchange0.json; sourceTree = "<group>"; };
+		0ADBF37C28B7DD4F0076B459 /* data2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data2.json; sourceTree = "<group>"; };
+		0ADBF37D28B7DD4F0076B459 /* data3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data3.json; sourceTree = "<group>"; };
+		0ADBF37E28B7DD4F0076B459 /* exchange1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exchange1.json; sourceTree = "<group>"; };
+		0ADBF37F28B7DD4F0076B459 /* njson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = njson.json; sourceTree = "<group>"; };
+		0ADBF38028B7DD4F0076B459 /* data10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data10.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A36F5DD28B7718F00F533C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB3914E28D37B8D003E6F4D /* Valet in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A36F5D628B7718F00F533C1 = {
+			isa = PBXGroup;
+			children = (
+				0A36F5E228B7718F00F533C1 /* FEuroDigitale */,
+				0A36F5E128B7718F00F533C1 /* Products */,
+				0A36F5EA28B771B400F533C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A36F5E128B7718F00F533C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A36F5E028B7718F00F533C1 /* FEuroDigitale.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A36F5E228B7718F00F533C1 /* FEuroDigitale */ = {
+			isa = PBXGroup;
+			children = (
+				0A36F67C28B7887200F533C1 /* Start1 */,
+				0A36F67028B787E300F533C1 /* Json1 */,
+				0A36F66B28B787B000F533C1 /* Connection1 */,
+				0A36F66628B7874800F533C1 /* Keychain1 */,
+				0A36F5E328B7718F00F533C1 /* FEuroDigitale.h */,
+				0A36F5ED28B772F200F533C1 /* FEuroDigitale.swift */,
+			);
+			path = FEuroDigitale;
+			sourceTree = "<group>";
+		};
+		0A36F5EA28B771B400F533C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A36F5EB28B771B400F533C1 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A36F66628B7874800F533C1 /* Keychain1 */ = {
+			isa = PBXGroup;
+			children = (
+				0A36F66728B7876200F533C1 /* Keychain.swift */,
+				0A36F66928B7879600F533C1 /* SecureEnclave.swift */,
+			);
+			path = Keychain1;
+			sourceTree = "<group>";
+		};
+		0A36F66B28B787B000F533C1 /* Connection1 */ = {
+			isa = PBXGroup;
+			children = (
+				0A36F66C28B787C100F533C1 /* Exchange.swift */,
+				0A36F66E28B787D400F533C1 /* MultipeerSession.swift */,
+			);
+			path = Connection1;
+			sourceTree = "<group>";
+		};
+		0A36F67028B787E300F533C1 /* Json1 */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBF36A28B7DD4F0076B459 /* JsonFile */,
+				0A36F67128B787FB00F533C1 /* GenerateTestInformation.swift */,
+				0A36F67328B7880E00F533C1 /* ReadExchange.swift */,
+				0A36F67528B7882100F533C1 /* ReadJson.swift */,
+				0A36F67728B7882F00F533C1 /* ReadNJson.swift */,
+				0A36F67928B7884500F533C1 /* SaveLoadJson.swift */,
+			);
+			path = Json1;
+			sourceTree = "<group>";
+		};
+		0A36F67C28B7887200F533C1 /* Start1 */ = {
+			isa = PBXGroup;
+			children = (
+				0A36F67D28B7888100F533C1 /* HomePage.swift */,
+			);
+			path = Start1;
+			sourceTree = "<group>";
+		};
+		0ADBF36A28B7DD4F0076B459 /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBF36B28B7DD4F0076B459 /* njson1.json */,
+				0ADBF36C28B7DD4F0076B459 /* data0.json */,
+				0ADBF36D28B7DD4F0076B459 /* nexchange1.json */,
+				0ADBF36E28B7DD4F0076B459 /* exchange2.json */,
+				0ADBF36F28B7DD4F0076B459 /* exchange3.json */,
+				0ADBF37028B7DD4F0076B459 /* data1.json */,
+				0ADBF37128B7DD4F0076B459 /* data6.json */,
+				0ADBF37228B7DD4F0076B459 /* exchange4.json */,
+				0ADBF37328B7DD4F0076B459 /* nexchange.json */,
+				0ADBF37428B7DD4F0076B459 /* exchange5.json */,
+				0ADBF37528B7DD4F0076B459 /* data7.json */,
+				0ADBF37628B7DD4F0076B459 /* exchange6.json */,
+				0ADBF37728B7DD4F0076B459 /* data4.json */,
+				0ADBF37828B7DD4F0076B459 /* data8.json */,
+				0ADBF37928B7DD4F0076B459 /* data9.json */,
+				0ADBF37A28B7DD4F0076B459 /* data5.json */,
+				0ADBF37B28B7DD4F0076B459 /* exchange0.json */,
+				0ADBF37C28B7DD4F0076B459 /* data2.json */,
+				0ADBF37D28B7DD4F0076B459 /* data3.json */,
+				0ADBF37E28B7DD4F0076B459 /* exchange1.json */,
+				0ADBF37F28B7DD4F0076B459 /* njson.json */,
+				0ADBF38028B7DD4F0076B459 /* data10.json */,
+			);
+			path = JsonFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A36F5DB28B7718F00F533C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A36F5E428B7718F00F533C1 /* FEuroDigitale.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A36F5DF28B7718F00F533C1 /* FEuroDigitale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A36F5E728B7718F00F533C1 /* Build configuration list for PBXNativeTarget "FEuroDigitale" */;
+			buildPhases = (
+				0A36F5DB28B7718F00F533C1 /* Headers */,
+				0A36F5DC28B7718F00F533C1 /* Sources */,
+				0A36F5DD28B7718F00F533C1 /* Frameworks */,
+				0A36F5DE28B7718F00F533C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FEuroDigitale;
+			packageProductDependencies = (
+				0AB3914D28D37B8D003E6F4D /* Valet */,
+			);
+			productName = FEuroDigitale;
+			productReference = 0A36F5E028B7718F00F533C1 /* FEuroDigitale.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A36F5D728B7718F00F533C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0A36F5DF28B7718F00F533C1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 0A36F5DA28B7718F00F533C1 /* Build configuration list for PBXProject "FEuroDigitale" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A36F5D628B7718F00F533C1;
+			packageReferences = (
+				0A36F60128B773D000F533C1 /* XCRemoteSwiftPackageReference "Valet" */,
+			);
+			productRefGroup = 0A36F5E128B7718F00F533C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A36F5DF28B7718F00F533C1 /* FEuroDigitale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A36F5DE28B7718F00F533C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADBF39228B7DD500076B459 /* data2.json in Resources */,
+				0ADBF39528B7DD500076B459 /* njson.json in Resources */,
+				0ADBF39328B7DD500076B459 /* data3.json in Resources */,
+				0ADBF38D28B7DD500076B459 /* data4.json in Resources */,
+				0ADBF39028B7DD500076B459 /* data5.json in Resources */,
+				0ADBF39128B7DD500076B459 /* exchange0.json in Resources */,
+				0ADBF38928B7DD500076B459 /* nexchange.json in Resources */,
+				0ADBF38328B7DD500076B459 /* nexchange1.json in Resources */,
+				0ADBF38228B7DD500076B459 /* data0.json in Resources */,
+				0ADBF38728B7DD500076B459 /* data6.json in Resources */,
+				0ADBF38128B7DD500076B459 /* njson1.json in Resources */,
+				0ADBF38E28B7DD500076B459 /* data8.json in Resources */,
+				0ADBF38528B7DD500076B459 /* exchange3.json in Resources */,
+				0ADBF38B28B7DD500076B459 /* data7.json in Resources */,
+				0ADBF38C28B7DD500076B459 /* exchange6.json in Resources */,
+				0ADBF38828B7DD500076B459 /* exchange4.json in Resources */,
+				0ADBF38428B7DD500076B459 /* exchange2.json in Resources */,
+				0ADBF38A28B7DD500076B459 /* exchange5.json in Resources */,
+				0ADBF38F28B7DD500076B459 /* data9.json in Resources */,
+				0ADBF39428B7DD500076B459 /* exchange1.json in Resources */,
+				0ADBF39628B7DD500076B459 /* data10.json in Resources */,
+				0ADBF38628B7DD500076B459 /* data1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A36F5DC28B7718F00F533C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A36F67A28B7884500F533C1 /* SaveLoadJson.swift in Sources */,
+				0A36F67E28B7888100F533C1 /* HomePage.swift in Sources */,
+				0A36F66D28B787C100F533C1 /* Exchange.swift in Sources */,
+				0A36F67428B7880E00F533C1 /* ReadExchange.swift in Sources */,
+				0A36F67228B787FB00F533C1 /* GenerateTestInformation.swift in Sources */,
+				0A36F5EE28B772F200F533C1 /* FEuroDigitale.swift in Sources */,
+				0A36F66F28B787D400F533C1 /* MultipeerSession.swift in Sources */,
+				0A36F66A28B7879600F533C1 /* SecureEnclave.swift in Sources */,
+				0A36F67828B7882F00F533C1 /* ReadNJson.swift in Sources */,
+				0A36F66828B7876200F533C1 /* Keychain.swift in Sources */,
+				0A36F67628B7882100F533C1 /* ReadJson.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A36F5E528B7718F00F533C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A36F5E628B7718F00F533C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A36F5E828B7718F00F533C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GUFXUT5438;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emame.FEuroDigitale;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A36F5E928B7718F00F533C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GUFXUT5438;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emame.FEuroDigitale;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A36F5DA28B7718F00F533C1 /* Build configuration list for PBXProject "FEuroDigitale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A36F5E528B7718F00F533C1 /* Debug */,
+				0A36F5E628B7718F00F533C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A36F5E728B7718F00F533C1 /* Build configuration list for PBXNativeTarget "FEuroDigitale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A36F5E828B7718F00F533C1 /* Debug */,
+				0A36F5E928B7718F00F533C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A36F60128B773D000F533C1 /* XCRemoteSwiftPackageReference "Valet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/square/Valet.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0AB3914D28D37B8D003E6F4D /* Valet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A36F60128B773D000F533C1 /* XCRemoteSwiftPackageReference "Valet" */;
+			productName = Valet;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0A36F5D728B7718F00F533C1 /* Project object */;
+}
